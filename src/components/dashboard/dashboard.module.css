@@ -1,0 +1,107 @@
+.container-full {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7fafc;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  background-color: rgba(49, 130, 206);
+}
+
+/* Semi-transparent overlay */
+
+/* Sidebar positioned in the top-left corner */
+.sidebar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1; /* Sidebar appears on top */
+  color: white; /* For visibility on a dark background */
+}
+
+.datacard {
+  position: absolute;
+  top: 15%;
+  left: 17%;
+  padding: 15px 0 0 20px;
+  background-color: rgb(255 255 255);
+  width: 270px;
+  border-radius: 16px;
+  height: 100px;
+  z-index: 999;
+}
+.datacard1 {
+  position: absolute;
+  top: 15%;
+  left: 36%;
+  padding: 15px 0 0 20px;
+  background-color: rgb(255 255 255);
+  width: 270px;
+  border-radius: 16px;
+  height: 100px;
+  z-index: 999;
+}
+.datacard2 {
+  position: absolute;
+  top: 15%;
+  left: 55%;
+  padding: 15px 0 0 20px;
+  background-color: rgb(255 255 255);
+  width: 270px;
+  border-radius: 16px;
+  height: 100px;
+  z-index: 999;
+}
+.InfoCard {
+  color: #a0aec0;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0;
+}
+.InfoCardPrice {
+  font-weight: 700;
+  font-size: 17px;
+}
+.financialperformance {
+  color: #48bb78;
+  font-weight: 700;
+  font-size: 14px;
+}
+.ProfitLossNotifier {
+  color: #a0aec0;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.pagevisitstable {
+  position: absolute;
+  left: 17%;
+  bottom: 10px;
+  width: 50%;
+  background-color: white;
+  border-radius: 16px;
+  padding: 10px;
+  overflow: auto;
+  height: 210px;
+}
+.viewAllBtn {
+  background-color: #3182ce;
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+.tableHead {
+  background-color: #f2f8f0;
+  font-size: 10px;
+  color: #a0aec0;
+}
+.tableBody {
+  color: #718096;
+  font-size: 14px;
+  font-weight: 700;
+}
